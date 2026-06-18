@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Tank : MonoBehaviour
 {
-
+    [SerializeField] private Bullet prefabBullet;
     float horizontal;
     float vertical;
 
@@ -22,6 +22,10 @@ public class Tank : MonoBehaviour
         
         transform.Rotate(Vector3.forward, -horizontal);
         transform.Translate(Vector3.right *  vertical * Time.deltaTime * speed);
-        
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Bullet bullet = Instantiate(prefabBullet, transform.position, transform.rotation);
+            bullet.direction = transform.right;
+        }
     }
 }
