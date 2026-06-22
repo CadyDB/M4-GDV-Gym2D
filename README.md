@@ -7,6 +7,6 @@ Voor deze game had ik inspiratie genomen van een spel waar ik veel van hou genaa
 
 Hier is een simpele grid voor het spel zelf, hierin kan je met je muis de tiles clicken om ze van kleur te veranderen.
 
-[kortedemo](Gifs/Demo.gif)
+[demo](Gifs/Demo.gif)
 
 Ik heb best wel wat al gemaakt ervoor. De main mechanic is ongeveer af. En ik ben nog bezig met comments te maken om je bij bijvoorbeeld een score van 100 een SFX en een "Good!" comment te geven.
